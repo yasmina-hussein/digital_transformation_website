@@ -1,7 +1,7 @@
 app_name = "digital_transformation"
-app_title = "Digital Transformation Website"
+app_title = "Digital Transformation website"
 app_publisher = "Yasmina Hussein"
-app_description = "the site archives real stories from staff, volunteers, and partners: the challenges they faced, the digital tools and systems introduced, and the impact on communities across Kenya."
+app_description = "Digital Transformation Website"
 app_email = "husseinyasmin514@gmail.com"
 app_license = "mit"
 
