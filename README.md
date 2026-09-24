@@ -1,6 +1,6 @@
 ### Digital Transformation Website
 
-the site archives real stories from staff, volunteers, and partners: the challenges they faced, the digital tools and systems introduced, and the impact on communities across Kenya.
+Digital Transformation Website
 
 ### Installation
 
