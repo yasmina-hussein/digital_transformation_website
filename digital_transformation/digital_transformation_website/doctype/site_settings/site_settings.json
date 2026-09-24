@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-09-24 14:20:19.683060",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "mission_statement",
+  "vision_statement",
+  "who_we_are",
+  "about_hero_page",
+  "total_counties",
+  "total_countries"
+ ],
+ "fields": [
+  {
+   "fieldname": "mission_statement",
+   "fieldtype": "Small Text",
+   "label": "Mission Statement"
+  },
+  {
+   "fieldname": "vision_statement",
+   "fieldtype": "Small Text",
+   "label": "Vision Statement"
+  },
+  {
+   "fieldname": "who_we_are",
+   "fieldtype": "Text Editor",
+   "label": "Who We Are"
+  },
+  {
+   "fieldname": "about_hero_page",
+   "fieldtype": "Attach Image",
+   "label": "About Hero Page"
+  },
+  {
+   "fieldname": "total_counties",
+   "fieldtype": "Int",
+   "label": "Total Counties"
+  },
+  {
+   "fieldname": "total_countries",
+   "fieldtype": "Int",
+   "label": "Total Countries"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-09-24 14:29:52.103452",
+ "modified_by": "Administrator",
+ "module": "Digital Transformation Website",
+ "name": "Site Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

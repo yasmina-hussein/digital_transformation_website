@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "autoname": "field:full_name",
+ "creation": "2026-09-24 11:53:43.811089",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "photo",
+  "role_title",
+  "department",
+  "bio",
+  "spacialization",
+  "profile_slug",
+  "linked_projects"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach Image",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "role_title",
+   "fieldtype": "Data",
+   "label": "Role Title"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Select",
+   "label": "Department",
+   "options": "\nLeadership\nProduct\nTechnology\nVolunteers\nContributors"
+  },
+  {
+   "fieldname": "bio",
+   "fieldtype": "Small Text",
+   "label": "Bio"
+  },
+  {
+   "fieldname": "spacialization",
+   "fieldtype": "Table",
+   "label": "Spacialization",
+   "options": "Specialization Tag"
+  },
+  {
+   "fieldname": "profile_slug",
+   "fieldtype": "Data",
+   "label": "Profile Slug"
+  },
+  {
+   "fieldname": "linked_projects",
+   "fieldtype": "Table MultiSelect",
+   "label": "Linked Projects",
+   "options": "Projects"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-09-24 14:12:17.759489",
+ "modified_by": "Administrator",
+ "module": "Digital Transformation Website",
+ "name": "Team Member",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

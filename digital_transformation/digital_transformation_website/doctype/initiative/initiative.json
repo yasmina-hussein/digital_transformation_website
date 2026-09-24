@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "autoname": "field:initiative_name",
+ "creation": "2026-09-24 11:28:28.553268",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "initiative_name",
+  "portfolio_project"
+ ],
+ "fields": [
+  {
+   "fieldname": "initiative_name",
+   "fieldtype": "Data",
+   "label": "Initiative Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "portfolio_project",
+   "fieldtype": "Link",
+   "label": "Portfolio Project",
+   "options": "Portfolio Project"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-09-24 11:39:32.512465",
+ "modified_by": "Administrator",
+ "module": "Digital Transformation Website",
+ "name": "Initiative",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
